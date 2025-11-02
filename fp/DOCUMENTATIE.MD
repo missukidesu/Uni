@@ -100,6 +100,24 @@ Aplicația trebuie să permită utilizatorului să:
 
 ---
 
-## 🧩 Structură proiect
+## 🧩 Scenariu de rulare
+## Scenariu pentru funcționalitatea aplicației de gestionare a cheltuielilor
+
+| Utilizator | Program | Descriere |
+|-------------|----------|-----------|
+| a | `python meniu.py` | Pornește aplicația și inițializează lista de cheltuieli goală |
+| b | `insereaza_cheltuiala_noua 5 150 mancare` | Adaugă o cheltuială de 150 lei pentru mâncare în ziua 5 |
+| c | `insereaza_cheltuiala_noua 10 200 intretinere` | Adaugă o cheltuială de 200 lei pentru întreținere în ziua 10 |
+| d | `insereaza_cheltuiala_noua 10 80 telefon` | Adaugă o cheltuială de 80 lei pentru telefon în ziua 10 |
+| e | `insereaza_cheltuiala_noua 15 300 imbracaminte` | Adaugă o cheltuială de 300 lei pentru îmbrăcăminte în ziua 15 |
+| f | `afiseaza_cheltuielile_mai_mari_decat_o_suma 100` | Afișează toate cheltuielile mai mari de 100 lei |
+| g | `sterge_o_cheltuiala_dintro_zi 10` | Șterge toate cheltuielile efectuate în ziua 10 |
+| h | `undo` | Reface lista de cheltuieli anterioară ștergerii |
+| i | `afiseaza_suma_totala_a_cheltuielilor_cu_tipul_dat mancare` | Calculează și afișează suma totală pentru tipul *mâncare* |
+| j | `afiseaza_ziua_cu_suma_maxima` | Afișează ziua cu cheltuiala totală maximă |
+| k | `filtrarea_cheltuielilor_cu_suma_mai_mica_decat_o_suma 100` | Elimină cheltuielile cu sumă mai mică de 100 lei |
+| l | `sorteaza_lista_dupa_tip` | Afișează cheltuielile ordonate după tip |
+| m | `exit` | Închide aplicația |
+
 
 
