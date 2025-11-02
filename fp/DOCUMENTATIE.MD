@@ -104,20 +104,20 @@ Aplicația trebuie să permită utilizatorului să:
 ## Scenariu pentru funcționalitatea aplicației de gestionare a cheltuielilor
 
 | Utilizator | Program | Descriere |
-|-------------|----------|-----------|
+|------------|-----------|-----------|
 | `python meniu.py` | `[]` | Pornește aplicația și inițializează lista de cheltuieli goală |
 | `insereaza_cheltuiala_noua 5 150 mancare` | `[{'ziua': 5, 'suma': 150.0, 'tip': 'mancare'}]` | Adaugă o cheltuială de 150 lei pentru mâncare în ziua 5 |
 | 'insereaza_cheltuiala_noua 10 200 intretinere` | `[{'ziua': 5, 'suma': 150.0, 'tip': 'mancare'}, {'ziua': 10, 'suma': 200.0, 'tip': 'intretinere'}]` | Adaugă o cheltuială de 200 lei pentru întreținere în ziua 10 |
-| `insereaza_cheltuiala_noua 10 80 telefon` |  | Adaugă o cheltuială de 80 lei pentru telefon în ziua 10 |
-| `insereaza_cheltuiala_noua 15 300 imbracaminte` |  | Adaugă o cheltuială de 300 lei pentru îmbrăcăminte în ziua 15 |
-| `afiseaza_cheltuielile_mai_mari_decat_o_suma 100` |  | Afișează toate cheltuielile mai mari de 100 lei |
-| `sterge_o_cheltuiala_dintro_zi 10` |  | Șterge toate cheltuielile efectuate în ziua 10 |
-| `undo` |  | Reface lista de cheltuieli anterioară ștergerii |
-| `afiseaza_suma_totala_a_cheltuielilor_cu_tipul_dat mancare` |  | Calculează și afișează suma totală pentru tipul *mâncare* |
-| `afiseaza_ziua_cu_suma_maxima` |  | Afișează ziua cu cheltuiala totală maximă |
-| `filtrarea_cheltuielilor_cu_suma_mai_mica_decat_o_suma 100` |  | Elimină cheltuielile cu sumă mai mică de 100 lei |
-| `sorteaza_lista_dupa_tip` | Afișează cheltuielile ordonate după tip' |  |
-| `exit` |  | Închide aplicația |
+| `insereaza_cheltuiala_noua 10 80 telefon` | `[{'ziua': 5, 'suma': 150.0, 'tip': 'mancare'}, {'ziua': 10, 'suma': 200.0, 'tip': 'intretinere'}, {'ziua': 10, 'suma': 80.0, 'tip': 'telefon'}]` | Adaugă o cheltuială de 80 lei pentru telefon în ziua 10 |
+| `insereaza_cheltuiala_noua 15 300 imbracaminte` | `[{'ziua': 5, 'suma': 150.0, 'tip': 'mancare'}, {'ziua': 10, 'suma': 200.0, 'tip': 'intretinere'}, {'ziua': 10, 'suma': 80.0, 'tip': 'telefon'}, {'ziua': 15, 'suma': 300.0, 'tip': 'imbracaminte'}]` | Adaugă o cheltuială de 300 lei pentru îmbrăcăminte în ziua 15 |
+| `afiseaza_cheltuielile_mai_mari_decat_o_suma 100` | `Se afiseaza: [{'ziua': 5, 'suma': 150.0, 'tip': 'mancare'}, {'ziua': 10, 'suma': 200.0, 'tip': 'intretinere'}, {'ziua': 15, 'suma': 300.0, 'tip': 'imbracaminte'}]` | Afișează toate cheltuielile mai mari de 100 lei |
+| `sterge_o_cheltuiala_dintro_zi 10` | `[{'ziua': 5, 'suma': 150.0, 'tip': 'mancare'}, {'ziua': 15, 'suma': 300.0, 'tip': 'imbracaminte'}]` | Șterge toate cheltuielile efectuate în ziua 10 |
+| `undo` | `[{'ziua': 5, 'suma': 150.0, 'tip': 'mancare'}, {'ziua': 10, 'suma': 200.0, 'tip': 'intretinere'}, {'ziua': 10, 'suma': 80.0, 'tip': 'telefon'}, {'ziua': 15, 'suma': 300.0, 'tip': 'imbracaminte'}]` | Reface lista de cheltuieli anterioară ștergerii |
+| `afiseaza_suma_totala_a_cheltuielilor_cu_tipul_dat mancare` | `150.0` | Calculează și afișează suma totală pentru tipul *mâncare* |
+| `afiseaza_ziua_cu_suma_maxima` | `15` | Afișează ziua cu cheltuiala totală maximă |
+| `filtrarea_cheltuielilor_cu_suma_mai_mica_decat_o_suma 100` | [{'ziua': 10, 'suma': 80.0, 'tip': 'telefon'}] | Elimină cheltuielile cu sumă mai mică de 100 lei |
+| `sorteaza_lista_dupa_tip` | `[{'ziua': 15, 'suma': 300.0, 'tip': 'imbracaminte'}, {'ziua': 10, 'suma': 200.0, 'tip': 'intretinere'}, {'ziua': 5, 'suma': 150.0, 'tip': 'mancare'}]` | Afișează cheltuielile ordonate după tip' |
+| `exit` | Sayonara, user! | Închide aplicația |
 
 
 
