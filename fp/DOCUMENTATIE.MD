@@ -45,17 +45,9 @@ Aplicația trebuie să permită utilizatorului să:
 
 ## 🕒 Plan de dezvoltare (3 săptămâni)
 
-### 🔹 **Săptămâna 1 – Funcționalități de bază**
+### 🔹 **Săptămâna 1 – Funcționalități de baza, ștergere și căutări**
 - Definirea structurii de date pentru cheltuieli (zi, sumă, tip)  
-- Implementarea funcționalității **F1 – Adaugă / Actualizează cheltuială**  
-- Crearea unei interfețe text simple pentru introducerea datelor  
-- Testarea adăugării și actualizării cheltuielilor  
-
-**🎯 Rezultat:** aplicație funcțională pentru adăugarea și afișarea cheltuielilor.
-
----
-
-### 🔹 **Săptămâna 2 – Ștergere și căutări**
+- Implementarea funcționalității **F1 – Adaugă / Actualizează cheltuială**
 - Implementarea funcțiilor de **ștergere**:  
   - F2 – Șterge după zi  
   - F3 – Șterge după interval  
@@ -64,23 +56,32 @@ Aplicația trebuie să permită utilizatorului să:
   - F5 – Cheltuieli mai mari decât o sumă  
   - F6 – Cheltuieli mai mici decât o sumă și efectuate înainte de o zi  
   - F7 – Cheltuieli de un anumit tip  
+- Crearea unei interfețe text simple pentru introducerea datelor
+- Testarea adăugării și actualizării cheltuielilor, ștergere și căutare
+
+**🎯 Rezultat:** aplicație funcțională pentru adăugarea și afișarea cheltuielilor.
+
+---
+
+### 🔹 **Săptămâna 2 – Rapoarte si filtrari**
+- Implementarea funcțiilor de **rapoarte**:  
+  - F8 – Suma totală pentru un tip de cheltuială  
+  - F9 – Ziua cu suma maximă  
+  - F10 – Cheltuieli cu o anumită sumă  
+  - F11 – Sortare după tip
+- Implementarea funcțiilor de **filtrare**:  
+  - F12 – Elimină cheltuielile de un anumit tip  
+  - F13 – Elimină cheltuielile mai mici decât o sumă dată  
 - Integrarea acestor funcționalități în interfața utilizator  
-- Testarea completă a operațiilor de ștergere și căutare  
+- Testarea completă a operațiilor de rapoarte si filtrare 
 
 **🎯 Rezultat:** aplicație care permite gestionarea completă a listei de cheltuieli.
 
 ---
 
-### 🔹 **Săptămâna 3 – Rapoarte, filtrări și Undo**
-- Implementarea funcțiilor de **rapoarte**:  
-  - F8 – Suma totală pentru un tip de cheltuială  
-  - F9 – Ziua cu suma maximă  
-  - F10 – Cheltuieli cu o anumită sumă  
-  - F11 – Sortare după tip  
-- Implementarea funcțiilor de **filtrare**:  
-  - F12 – Elimină cheltuielile de un anumit tip  
-  - F13 – Elimină cheltuielile mai mici decât o sumă dată  
-- Implementarea funcției **F14 – Undo** (refacerea ultimei modificări)  
+### 🔹 **Săptămâna 3 – Undo**
+- Implementarea funcției **F14 – Undo** (refacerea ultimei modificări) 
+- Rezolvarea ultimelor bugguri
 - Integrarea completă și testarea finală  
 
 **🎯 Rezultat:** aplicație completă, stabilă și ușor de utilizat.
@@ -92,10 +93,10 @@ Aplicația trebuie să permită utilizatorului să:
 | Funcționalitate | Săptămâna de implementare |
 |-----------------|----------------------------|
 | F1 – Adaugă/Actualizează | ✅ Săptămâna 1 |
-| F2 – F4 (Ștergere) | ✅ Săptămâna 2 |
-| F5 – F7 (Căutări) | ✅ Săptămâna 2 |
-| F8 – F11 (Rapoarte) | ✅ Săptămâna 3 |
-| F12 – F13 (Filtrări) | ✅ Săptămâna 3 |
+| F2 – F4 (Ștergere) | ✅ Săptămâna 1 |
+| F5 – F7 (Căutări) | ✅ Săptămâna 1 |
+| F8 – F11 (Rapoarte) | ✅ Săptămâna 2 |
+| F12 – F13 (Filtrări) | ✅ Săptămâna 2 |
 | F14 – Undo | ✅ Săptămâna 3 |
 
 ---
